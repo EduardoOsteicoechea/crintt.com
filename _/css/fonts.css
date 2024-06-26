@@ -1,0 +1,31 @@
+@font-face
+{
+	font-family: f1;
+	src: url("../font/exquite/Exquite.ttf");
+}
+
+
+
+@font-face
+{
+	font-family: f2;
+	src: url("../font/noracle/Noracle.ttf");
+}
+@font-face
+{
+	font-family: f2i;
+	src: url("../font/noracle/Noracle Italic.ttf");
+}
+
+
+
+@font-face
+{
+	font-family: f3;
+	src: url("../font/tranquilo/Tranquilo 1.otf");
+}
+@font-face
+{
+	font-family: f3b;
+	src: url("../font/tranquilo/Tranquilo Bold 1.otf");
+}

@@ -1,0 +1,17 @@
+{
+    "name": "eduardo1/intts_registros.com",
+    "require": {
+        "phpoffice/phpspreadsheet": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eduardo1\\InttsRegistrosCom\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "EduardoOsteicoechea",
+            "email": "eduardooost@gmail.com"
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+.f001
+{
+	width: 100dvw;
+	height: auto;
+	padding: 0dvw 2.5dvw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2dvw;
+}
+
+.error
+{
+	width: 100dvw;
+	height: auto;
+	padding: 0 35%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 1dvw;
+	font-weight: 500;
+	color: var(--c2);
+	font-size: .75dvw;
+	letter-spacing: .05dvw;
+	margin-top: 2dvw;
+}
+
+form 
+{
+	
+	display: flex;
+	justify-content: space-between;
+	width: 100dvw;
+	gap: 2dvw;
+	padding: 2dvw 2dvw 2.75dvw 2dvw;
+	margin-top: 2.5dvw;
+	border-radius: .5dvw;
+	box-shadow: .25dvw .25dvw 1dvw var(--c6);
+}
+form > div
+{
+	display: flex;
+	flex-direction: column;
+	gap: .5dvw;
+	width: 100%;
+}
+form > div > input
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	line-height: 2dvw;
+	border: none;
+	border-radius: .25dvw;
+	color: var(--c3);
+	font-weight: 600;
+	letter-spacing: .15dvw;
+	padding: .5dvw 1dvw;
+	background: var(--c4);
+	min-height: 2dvw;
+	box-shadow: .05dvw .15dvw .25dvw var(--c6);
+	font-size: .75dvw;
+	cursor: pointer;
+}
+form > div:last-child > input
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	line-height: 2dvw;
+	/* border: solid .1dvw #000; */
+	border: none;
+	border-radius: .25dvw;
+	font-weight: 600;
+	letter-spacing: .05dvw;
+	padding: .5dvw 1dvw;
+	background: var(--c5);
+	color: var(--c1);
+	min-height: 2dvw;
+	box-shadow: .05dvw .15dvw .25dvw var(--c6);
+	font-size: .75dvw;
+	cursor: pointer;
+}
+form > div > label
+{
+	letter-spacing: .15dvw;
+	font-size: .75dvw;
+}

@@ -1,0 +1,25 @@
+@media only screen and (max-width: 821px) and (min-width: 439px)
+{  
+	:root
+	{
+		letter-spacing: .2vw;
+	
+		--s1:.25vw;
+		--s2:.5vw;
+		--s3:.75vw;
+		--s4:1vw;
+		--s5:1.25vw;
+		--s6:1.5vw;
+		--s7:2.75vw;
+		--s8:2.0vw;
+		--s9:2.25vw;
+		--s10:2.5vw;
+		--s11:2.75vw;
+		--s12:3vw;
+	}
+	body
+	{
+		 padding: 4dvw 0 0 0;
+		 overflow-x: hidden;
+	}
+}
