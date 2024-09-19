@@ -26,7 +26,6 @@
 			$this->error_compilation_string .= Check_for_repeated_cell_data($rows);
 			for ( $i=0; $i < count($rows); $i++ ) 
 			{ 
-
 				$row = $rows[$i];
 				$row_array = [];
 				
