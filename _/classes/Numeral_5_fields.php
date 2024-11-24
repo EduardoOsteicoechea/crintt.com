@@ -1,7 +1,7 @@
 <?php
 	include_once "Error_generic.php";
 	class Numeral_5_fields
-	{
+	{ 
 		public $root_folder;
 		public $fields= 
 		[
