@@ -22,7 +22,7 @@
 				if (!(in_array($character, $allowed_letters)))
 				{
 					$message = "";
-					$message .= "Error en la fila " .$row. " columna " .$column. ".";
+					$message .= "<b>Error en la fila " .$row. " columna " .$column. ".</b>";
 					$message .= " El campo ".$name." solo admite letras.";
 					$message .= " El valor que ingresó fue: \"" .$value. "\".";
 					$message .= " Ingrese un valor que solo contenga letras.";
@@ -39,7 +39,7 @@
 				if (!(in_array($character, $allowed_numbers)) && !(in_array($character, $allowed_letters)) && !(in_array($character, $allowed_especial_characters)))
 				{
 					$message = "";
-					$message .= "Error en la fila " .$row. " columna " .$column. ".";
+					$message .= "<b>Error en la fila " .$row. " columna " .$column. ".</b>";
 					$message .= " El campo ".$name." solo admite letras y estos caracteres especiales: ".$especial_characters.".";
 					$message .= " El valor que ingresó fue: \"" .$value. "\".";
 					$message .= " Ingrese un valor que solo contenga letras o alguno de estos caracteres especiales: ".$especial_characters.".";
@@ -56,7 +56,7 @@
 				if (!(in_array($character, $allowed_numbers)))
 				{
 					$message = "";
-					$message .= "Error en la fila " .$row. " columna " .$column. ".";
+					$message .= "<b>Error en la fila " .$row. " columna " .$column. ".</b>";
 					$message .= " El campo ".$name." solo admite números.";
 					$message .= " El valor que ingresó fue: \"" .$value. "\".";
 					$message .= " Ingrese un valor que solo contenga numeros.";

@@ -143,7 +143,8 @@
 			$movement_type_count = array_count_values($movement_type_values);
 			
 			$this->ma_count = isset($movement_type_count["MA"]) ? (string)$movement_type_count["MA"] : "0000000";
-			$this->mv_count = isset($movement_type_count["MV"]) ? (string)$movement_type_count["MV"] : "0000000";
+			// $this->mv_count = isset($movement_type_count["MV"]) ? (string)$movement_type_count["MV"] : "0000000";
+			$this->mv_count = isset($movement_type_count["MM"]) ? (string)$movement_type_count["MM"] : "0000000";
 			$this->me_count = isset($movement_type_count["ME"]) ? (string)$movement_type_count["ME"] : "0000000";
 			
 			$this->ma_count = $this->pad_movement_type_value($this->ma_count);

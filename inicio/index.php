@@ -1,5 +1,6 @@
 <?php include '../_/global.php'; ?>
 <?php include '../_/component/f001/f001.php'; ?>
+
 <?php echo page_top($root_folder, "INTTS", "Registro de motos"); ?>
 <?php echo page_body($root_folder, "INTTS", $_SESSION); ?>
 	<?php 
