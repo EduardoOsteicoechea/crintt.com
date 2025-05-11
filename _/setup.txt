@@ -1,0 +1,6 @@
+-Install XAMPP
+-Install composer: https://getcomposer.org/download/
+-Remove the ";" from the line ";extension=zip" on C:\xampp\php\php.ini
+-Remove the ";" from the line ";extension=gd" on C:\xampp\php\php.ini
+-Run git clone https://github.com/EduardoOsteicoechea/crintt.com.git on "C:\xampp\htdocs"
+-On the terminal run "composer require phpoffice/phpspreadsheet"
